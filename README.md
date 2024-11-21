@@ -72,7 +72,7 @@ If you get any errors let me know.
 Now you have a local copy of the repo that you can make changes to. Let's continue:
 
 1. It's always recommended to make changes on a dedicated branch. It's good to give branches descriptive names. Make one with `git branch bugfix/remove_readme_bug`
-2. Now you can modify the files. Use whatever editor or IDE you prefer. Open the README.md file (this file!) and remove this bug: 🐛, replace it with a checkmark (in markdown you can write `:white_check_mark:`)
+2. Now you can modify the files. Use whatever editor or IDE you prefer. Open the README.md file (this file!) and remove this bug: ✅, replace it with a checkmark (in markdown you can write `:white_check_mark:`)
 3. After saving the file, you've made your changes. You can add the file to the "staging area" with `git add .` (the dot means "everything in the current directory"). The staging area is like a checklist of files you're getting ready to commit.
 4. Now you can commit the changes to make a new "step" in the timeline of your branch, with `git commit -m "Fix bug"`. The `-m` means "message", which all commits have to have to describe what was changed. Git might ask you to save your email address and name at this point, just follow the instructions it gives.
 5. You can now see that your commit is saved in the branch timeline, with `git log`. It should show your change as the most recent change in the list at the top.
